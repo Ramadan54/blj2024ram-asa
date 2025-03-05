@@ -1,0 +1,125 @@
+/* Körperstil: Zentrierung der gesamten Seite */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stapelt Elemente untereinander */
+    justify-content: center; /* Vertikal zentrieren */
+    align-items: center; /* Horizontal zentrieren */
+    height: 100vh;
+    background-color: #fdf5e6;
+}
+
+/* Stil für den Titel */
+.titel {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #8b4513;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 2rem; /* Abstand nach unten */
+}
+
+/* Stil für die Einleitung-Überschrift */
+.einleitung-ueberschrift {
+    font-size: 2rem;
+    color: #8b4513;
+    text-align: center;
+    margin-bottom: 1rem; /* Abstand nach unten */
+}
+
+/* Stil für den Einleitungstext */
+.einleitung-text {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+/* Step 1 Abschnitt */
+.step1 {
+    width: 100%; /* Breite der gesamten Seite */
+    display: flex;
+    flex-direction: column; /* Stapelt Elemente untereinander */
+    align-items: flex-start; /* Links ausrichten */
+    margin-left: 2rem; /* Abstand vom linken Rand */
+    margin-top: 2rem; /* Abstand nach oben */
+}
+
+/* Stil für Step-Überschrift */
+.step-ueberschrift {
+    font-size: 1.5rem; /* Kleine Überschrift */
+    color: #8b4513; /* Schokoladenbraune Farbe */
+    margin-bottom: 0.5rem; /* Abstand nach unten */
+}
+
+/* Stil für den Step-Text */
+.step-text {
+    font-size: 1.2rem;
+    color: #333; /* Dunkelgrau */
+    font-family: 'Arial', sans-serif;
+}
+/* Step 1 Abschnitt */
+.step1 {
+    width: 100%; /* Breite der Seite */
+    display: flex;
+    flex-direction: column; /* Untereinander anzeigen */
+    align-items: flex-start; /* Links ausrichten */
+    margin-left: 2rem; /* Abstand vom linken Rand */
+    margin-top: 2rem; /* Abstand nach oben */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Überschrift für Step */
+.step-ueberschrift {
+    font-size: 1.5rem;
+    color: #8b4513;
+    margin-bottom: 1rem; /* Abstand nach unten */
+}
+
+/* Inhalt für Materialien & Zutaten */
+.step-text h4 {
+    font-size: 1.2rem;
+    color: #8b4513; /* Schokoladenbraune Überschriften */
+    margin-top: 1rem; /* Abstand nach oben */
+}
+
+.step-text ul, 
+.step-text ol {
+    margin-left: 1.5rem; /* Einzug für Listen */
+    font-size: 1rem; /* Schriftgröße */
+    color: #333; /* Dunkelgrauer Text */
+    line-height: 1.6; /* Zeilenabstand */
+}
+
+.step-text li {
+    margin-bottom: 0.5rem; /* Abstand zwischen Listenpunkten */
+}
+
+/* Schritt-Überschrift für Step 1 und Step 2 */
+.step-ueberschrift {
+    font-size: 2rem; /* Schriftgröße */
+    font-weight: bold; /* Fettschrift */
+    color: #8b4513; /* Schokoladenbraune Farbe */
+    text-align: left; /* Links ausrichten */
+    margin: 2rem 0 1rem 2rem; /* Abstand links und nach oben */
+}
+
+/* Container für Step-Text */
+.step-container {
+    display: flex; /* Flexbox */
+    justify-content: flex-start; /* Inhalt links ausrichten */
+    align-items: flex-start; /* Oben ausrichten */
+    margin-left: 2rem; /* Abstand links */
+}
+
+/* Stil für Step-Text */
+.step-text h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #8b4513; /* Gleich wie Überschrift */
+    margin-bottom: 0.5rem;
+}
+
+.step-text p {
+    font-size: 1rem;
+    color: #333; /* Dunkelgrau */
+    margin

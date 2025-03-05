@@ -1,0 +1,11 @@
+Vervollständige das Schiebepuzzle Programm. Gegeben sind drei Dateien:
+- main.c: Besitzt eine unvollständige Main Funktion. Diese muss nur erweitert werden (nichts entfernen).
+- utils.c: Source File für Hilfsfunktionen. Muss nicht verändert werden.
+- utils.h: Dazugehörige Header File. Muss nicht verändert werden.
+
+Das Schiebepuzzle ist in einem 2D int Array abgebildet. Darin enthalten sind die Zahlen 0 bis 15. Dabei entspricht die Zahl 0 dem "leeren" Feld. Alle Felder, die sich direkt neben dem leeren Feld befinden, können den Platz des leeren Felds einnehmen. Im Klartext heisst das, dass die Werte vom leeren Feld (0) und dem Feld, welches das leere Feld einnehmen soll, vertauscht werden. Hiermit wird eine Verschiebung eines Felds nachgebildet. Es braucht keine Überprüfung, ob das Puzzle fertig gelöst ist oder nicht. Das Programm wird mit einer Eingabe der Zahl 0 beendet.
+
+Die Aufgabe kann folgendermassen angegangen werden:
+ - Die Position des "leeren" Felds zwischenspeichern.
+ - Ausgehend von der Position des leeren Felds die benachbarten Felder betrachten (Anzahl Nachbarn variiert zwischen 2 und 4)
+ - Nur Schiebebewegungen mit allen gültigen Nachbarn zulassen

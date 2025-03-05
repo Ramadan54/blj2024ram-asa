@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <form>
+           
+            <div class="Anrede">
+                <label class="Manyak">Anrede:</label>
+                <div class="Ayri">
+                    <input type="radio" id="herr" name="anrede" value="herr">
+                    <label for="herr">Herr</label>
+                    <input type="radio" id="frau" name="anrede" value="frau">
+                    <label for="frau">Frau</label>
+                </div>
+            </div>
+
+
+
+
+
+    </form>
+</div>
+
+
+
+</body>
+</html>
