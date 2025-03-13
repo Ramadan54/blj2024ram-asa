@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316cf2e0-163e-41c9-85a6-9f3314ca2777" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vererbung.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Media.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MediaCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game.java" afterDir="false" />
-    </list>
+    <list default="true" id="316cf2e0-163e-41c9-85a6-9f3314ca2777" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -48,7 +35,7 @@
   "keyToString": {
     "Application.MediaCollection.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/GitHub/blj2024ram-asa/Java/2025/Vererbung/Vererbung/src/Main.java"
   }
