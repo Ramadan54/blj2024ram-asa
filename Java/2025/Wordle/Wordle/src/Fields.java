@@ -4,7 +4,7 @@ import java.nio.file.Paths;
 import java.util.*;
 
 public class Fields {
-    private List<String> words = new ArrayList<>();
+    private final List<String> words = new ArrayList<>();
     private String targetWord;
 
     public void loadWords(String filename) throws IOException {

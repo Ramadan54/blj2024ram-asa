@@ -2,13 +2,9 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Game {
-    private Fields fields;
+    private final Fields fields = new Fields();
     private final Scanner scanner = new Scanner(System.in);
     private boolean playAgain = true;
-
-    public Game() {
-        fields = new Fields();
-    }
 
     public void start() {
         System.out.println("Willkommen beim Wordle Game!\n");
