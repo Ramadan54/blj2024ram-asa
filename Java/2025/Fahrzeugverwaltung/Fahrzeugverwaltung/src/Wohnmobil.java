@@ -6,5 +6,4 @@ public class Wohnmobil extends Vehicle {
     public String getVehicleType() {
         return "Wohnmobil";
     }
-
 }

@@ -17,6 +17,10 @@ public abstract class Vehicle {
     public int getMinDriverAge() {
         return minDriverAge;
     }
-
     public abstract String getVehicleType();
+
+    @Override
+    public String toString() {
+        return getVehicleType() + ": " + modelName + " (Plate: " + plateNumber + ")";
+    }
 }
