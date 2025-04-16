@@ -1,7 +1,7 @@
 public abstract class Vehicle {
-    private String modelName;
-    private String plateNumber;
-    private int minDriverAge;
+    private final String modelName;
+    private final String plateNumber;
+    private final int minDriverAge;
 
     public Vehicle(String modelName, String plateNumber, int minDriverAge) {
         this.modelName = modelName;
