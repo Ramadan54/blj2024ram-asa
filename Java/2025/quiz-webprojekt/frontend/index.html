@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Allgemeinwissen Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Willkommen zum Allgemeinwissensquiz!</h1>
+  <h2>Bitte wähle eine Kategorie aus und fahre fort, um die Fragen zu laden.</h2>
+
+  <div id="timer-section" style="display: none; width: 90%; max-width: 600px;">
+    <div id="timer" style="font-size: 20px; font-weight: bold; margin-bottom: 5px;"></div>
+    <div id="progress-container">
+      <div id="progress-bar"></div>
+    </div>
+  </div>
+
+  <div id="quiz-container"></div>
+
+  <select id="category-select" style="margin-top: 20px;">
+    <option value="Geografie">Geografie</option>
+    <option value="Sport">Sport</option>
+    <option value="Film">Film</option>
+  </select>
+
+  <button onclick="loadQuestions()">Fragen laden</button>
+  <button onclick="showResult()" id="finish-button" style="display: none;">Quiz korrigieren</button>
+
+  <img
+    id="quiz-image"
+    src="https://luxdigi.at/fileadmin/_processed_/0/c/csm_join_in_quiz_Soifer_shutterstock_1723459042_6424a6fefb.jpg"
+    alt="Quiz Bild"
+    style="width: 450px; margin-top: 40px; display: block; margin-left: auto; margin-right: auto; border-radius: 10px;"
+  />
+
+  <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
