@@ -18,8 +18,15 @@ public class Command {
                 }
                 break;
             case "take":
+                Item item = controller.getCurrentRoom().getItem(noun);
+                if (item != null) {
+                    controller.getPlayer().take(item, controller.getCurrentRoom());
+                } else {
+                    System.out.println("Das kannst du hier nicht nehmen.");
+                }
                 break;
             case "use":
+                controller.getPlayer().use(noun, controller.getCurrentRoom());
                 break;
             case "quit":
                 controller.endGame();
