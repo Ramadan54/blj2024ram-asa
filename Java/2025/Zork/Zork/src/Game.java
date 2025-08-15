@@ -1,6 +1,1 @@
-public class Game {
-    public static void main(String[] args) {
-        GameController controller = new GameController();
-        controller.start();
-    }
-}
+https://media.kulturbanause.de/2020/11/html-css-lernen.png 
